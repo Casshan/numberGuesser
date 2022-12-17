@@ -1,0 +1,182 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap');
+
+/* BODY */
+body {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 960px;
+    background-color: #E0D1EB;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header {
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: black;
+    color: white;
+    box-shadow: 0 0 12px -2px black;
+    overflow: auto;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 7px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.name {
+    display: flex;
+    justify-self: start;
+}
+
+.project-title {
+    display: flex;
+    justify-self: end;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    flex: 1 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.child-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    width: 500px;
+    height: 300px;
+    background: black;
+    border: 3px solid white;
+    border-radius: 55px;
+    box-shadow: 0 0 12px -2px black;
+}
+
+#submit-button {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: black;
+    color:white;
+    margin-top: -68px;
+    margin-left: 30px;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.6s;
+}
+
+#submit-button:hover {
+    border: 3px solid black;
+    background-color: white;
+    color:black;
+}
+
+.child-container h1 {
+    font-size: 40px;
+    justify-self:first baseline;
+    color: white;
+    margin-top: -20px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.child-container h2 {
+    font-size: 20px;
+    justify-self:first baseline;
+    color: white;
+    margin-top: -30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.child-container input {
+    display: flex;
+    align-self: center;
+    margin-left: 174px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.guesses {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.guesses div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 40%;
+    margin: 15px;
+    Color: white;
+    font-size: 50px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.options button {
+    max-width: 100px;
+    min-height: 30px;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15;
+    color: black;
+    background: none;
+    transition: 0.4s;
+}
+
+.options button:hover {
+    color: white;
+    background: black;
+}
